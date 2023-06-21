@@ -12,7 +12,6 @@
 main header{
     background-color: black;
     color: white;
-    font-family: 'Passion One', cursive;
     text-align: center;
     padding-top: 50px;
 }
@@ -20,14 +19,15 @@ main header{
 main h1 {
     font-size: 10vw;
     font-variant: small-caps;
+    font-family: 'Passion One', cursive;
 }
 
-main p{
+header p{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     padding-bottom: 50px;
     line-height: 20px;
-    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main a {
@@ -35,7 +35,56 @@ main a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
 
 main section {
     font-family:'Sriracha', cursive;
+}
+
+.paragrafo {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    display:block;
+    line-height: 2em;
+    font-size: 3.5vw;
+    text-align: justify;
+    padding-left: 16px;
+    width: 100%;
+}
+.imagem {
+    color: white;
+    line-height: 2em;
+    font-size: 3.5vw;
+    background-color:rgba(46, 66, 66, 0.301);
+    display: inline-block;
+    padding: 10px;
+}
+
+#flor {
+    padding: 5%;
+    background: black url('imagem/background001.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+#livro {
+    padding: 5%;
+    background-size: cover;
+    background: black url('imagem/background002.jpg') center center no-repeat fixed;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
 }
