@@ -44,6 +44,7 @@ a:hover {
 
 main section {
     font-family:'Sriracha', cursive;
+    padding-left: 10px;
 }
 
 .paragrafo {
@@ -52,8 +53,6 @@ main section {
     display:block;
     line-height: 2em;
     font-size: 3.5vw;
-    text-align: justify;
-    padding-left: 10px;
     width: 100%;
 }
 .imagem {
@@ -63,22 +62,17 @@ main section {
     background-color:rgba(46, 66, 66, 0.301);
     display: inline-block;
     padding-top: 30px;
-    padding-left:10px ;
     padding-bottom: 70px ;
     padding-right: 0px;
     padding: 10px;
 }
 
 #flor {
-    padding: 5%;
-    padding-right: 0%;
     background: black url('imagem/background001.jpg') center center no-repeat fixed;
     background-size: cover;
 }
 
 #livro {
-    padding: 5%;
-    padding-right: 0%;
     background-size: cover;
     background: black url('imagem/background002.jpg') center center no-repeat fixed;
 }
